@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package crud;
 
-option go_package = "windsurf-project/protos/gen/go/crud;crud";
+option go_package = "windsurf-project/protos/gen/go/crud;crud1";
 
 service CRUDService {
   rpc Create(CreateRequest) returns (CreateResponse);
